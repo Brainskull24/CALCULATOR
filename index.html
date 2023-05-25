@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css">
+    <title>Calculator - Fast and Furious</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator - Made Using HTML, CSS AND JAVASCRIPT</h1>
+        <div class="calculator">
+            <form>
+                <div class = "inputtext">
+                    <input type="text" name = "inputtext" class = "inputtext1">
+                </div>
+                <div class="buttons">
+                    <input type = "button" class = "button color1" value = "AC" onclick="inputtext.value = '' "></input>
+                    <input type = "button" class = "button color1" value = "DE" onclick="inputtext.value = inputtext.value = inputtext.value.toString().slice(0,-1) "></input>
+                    <input type = "button" class = "button color1" value = "%" onclick="inputtext.value += '%' "></input>
+                    <input type = "button" class = "button color2" value = "/" onclick="inputtext.value += '/' "></input>
+                </div>
+                <div class="buttons">
+                    <input type = "button" class = "button" value = "7" onclick="inputtext.value += '7' "></input>
+                    <input type = "button" class = "button" value = "8" onclick="inputtext.value += '8' "></input>
+                    <input type = "button" class = "button" value = "9" onclick="inputtext.value += '9' "></input>
+                    <input type = "button" class = "button color2" value = "*" onclick="inputtext.value += '*' "></input>
+                </div>
+                <div class="buttons">
+                    <input type = "button" class = "button" value = "4" onclick="inputtext.value += '4' "></input>
+                    <input type = "button" class = "button" value = "5" onclick="inputtext.value += '5' "></input>
+                    <input type = "button" class = "button" value = "6" onclick="inputtext.value += '6' "></input>
+                    <input type = "button" class = "button color2" value = "-" onclick="inputtext.value += '-' "></input>
+                </div>
+                <div class="buttons">
+                    <input type = "button" value = "1" class = "button" onclick="inputtext.value += '1' "></input>
+                    <input type = "button" value = "2" class = "button" onclick="inputtext.value += '2' "></input>
+                    <input type = "button" value = "3" class = "button" onclick="inputtext.value += '3' "></input>
+                    <input type = "button" value = "+" class = "button color2" onclick="inputtext.value += '+' "></input>
+                </div>
+                <div class="buttons">
+                    <input type = "button" value = "0" class = "button zero" onclick="inputtext.value += '0' "></input>
+                    <input type = "button" value = "." class = "button" onclick="inputtext.value += '.' "></input>
+                    <input type = "button" value = "=" class = "button color2" onclick="inputtext.value = eval(inputtext.value) "></input>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

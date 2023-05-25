@@ -1,0 +1,63 @@
+.container{
+    width: 100vw;
+    height: 150vh;
+    color: black;
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    background-color: black;
+    width: 380px;
+    height: 600px;
+}
+
+.calculator form{
+    margin: auto;
+    margin-top: 0;
+}
+
+.calculator form .inputtext1{
+    margin: 10px;
+    width: 350px;
+    height: 100px;
+    font-size: xxx-large;
+    background-color: black;
+    color: white;
+    border: black;
+}
+
+.calculator form .button{
+    width: 75px;
+    height: 75px;
+    margin: 0px 4px 0px 4px;
+    font-size: x-large;
+    background-color: #524f4f;
+    color: white;
+}
+
+.calculator form .buttons{
+    padding: 10px;
+    ;
+}
+
+.calculator form .zero{
+    width: 160px;
+}
+
+.calculator form .color1{
+    background-color: #b9b3b3;
+    color: black;
+}
+.calculator form .color2{
+    background-color: orange;
+    color: white;
+}
